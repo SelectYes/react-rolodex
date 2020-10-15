@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
