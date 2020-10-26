@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {CardList} from './components/card-list/card-list.component';
 import {SearchBox} from './components/search-box/search-box.component';
+import {AddContactBtn} from './components/add-contact-button/add-contact-btn.component';
 import './App.css';
 
 class App extends Component {
@@ -33,6 +34,10 @@ class App extends Component {
 
     return(
       <div className="App">
+
+        <h1>Old Skool Rolodex</h1>
+
+        <AddContactBtn />
 
         <SearchBox
           placeholder='Search Entries' 
